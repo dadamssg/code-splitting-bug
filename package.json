@@ -1,0 +1,45 @@
+{
+  "name": "code-splitting-bug",
+  "version": "0.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --port 8083 --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClearC2/code-splitting-bug.git"
+  },
+  "author": "David Adams",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.10",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.0.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-hot-loader": "^4.0.0",
+    "style-loader": "^0.20.2",
+    "url-loader": "^0.6.2",
+    "webpack-bundle-analyzer": "^2.13.1",
+    "webpack-cli": "^2.0.10",
+    "webpack-dev-server": "^3.1.0"
+  },
+  "peerDependencies": {
+    "react": "^15.0.0 || ^16.0.0",
+    "react-dom": "^15.0.0 || ^16.0.0"
+  },
+  "dependencies": {
+    "babel-plugin-dynamic-import-node": "^2.0.0",
+    "leaflet": "^1.3.3",
+    "react-loadable": "^5.4.0",
+    "webpack": "^4.16.3"
+  }
+}
